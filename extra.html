@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://suleymanhg.github.io/look-and-feel-styleguide/styles/qatarmuseums.css">
+  
+    <title>Document</title>
+</head>
+<body>
+    <section class="filter-section">
+  
+        <nav class="filter-menu">
+          <ul class="filter-options">
+            <li>
+              <button class="filter-button" aria-label="Filter op categorie 1">Categorie 1</button>
+            </li>
+            <li>
+              <button class="filter-button" aria-label="Filter op categorie 2">Categorie 2</button>
+            </li>
+            <li>
+              <button class="filter-button" aria-label="Filter op categorie 3">Categorie 3</button>
+            </li>
+            <li>
+              <button class="filter-button" aria-label="Filter op categorie 4">Categorie 4</button>
+            </li>
+          </ul>
+        </nav>
+      
+        <form class="search-bar" role="search" aria-label="Zoek door de filters">
+          <label for="search" class="visually-hidden">Zoek</label>
+          <input 
+            type="search" 
+            id="search" 
+            name="search" 
+            class="form-field" 
+            placeholder="Zoeken..." 
+            aria-placeholder="Typ om te zoeken"
+          />
+          <button type="submit" class="button" aria-label="Start zoekopdracht">Zoek</button>
+        </form>
+      </section>
+</body>
+</html>
