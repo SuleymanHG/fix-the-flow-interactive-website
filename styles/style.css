@@ -43,22 +43,6 @@
 	font-family: monospace;
 }
 
-
-  body {
-	width: 100%;
-	overflow-x: hidden;
-
-	background-color: var(--light);
-
-	@media (prefers-color-scheme: dark) {
-		background-color: var(--dark);
-	}
-  }
-
-  body.color-scheme-dark {
-	background-color: var(--dark);
-}
-  
   .grid {
 	view-transition-name: cards;
 	display: grid;
@@ -96,120 +80,8 @@
 	background-color: light-dark(var(--light),var(--dark));
   }
   
-  nav {
-	background-color: light-dark(var(--light),var(--dark));
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	height: 100px;
-	width: 100%;
-  }
-  
-  .nav-list {
-	display: flex;
-	justify-content: space-between;
-	list-style: none;
-	padding: 10px 0;
-  }
-  
-  .nav-list li {
-	margin: 0 15px;
-  }
-  
-  .nav-list a {
-	text-decoration: none;
-	color: light-dark(var(--dark), var(--light));
-	font-weight: bold;
-	font-size: 1.5em;
-  }
-  
-  .hamburger {
-	display: none;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 50px;
-	height: 25px;
-	background: none;
-	border: none;
-	cursor: pointer;
-	z-index: 1001;
-  }
-  
-  .hamburger-line {
-	height: 3px;
-	background-color:light-dark(var(--dark), var(--light));
-	width: 100%;
-	border-radius: 2px;
-  }
-/* .grid {
-	transition: transform 0.3s ease;
-  }
-  
-  .grid:hover {
-	transform: scale(1.2); 
-  }
-  
-   */
 
 
 
 
 
-
-
-
-
-
-
-   
-  @media (max-width: 1200px) {
-	.grid {
-	  grid-template-columns: repeat(5, 1fr);
-	}
-  }
-  
-  @media (max-width: 992px) {
-	.grid {
-	  grid-template-columns: repeat(4, 1fr);
-	}
-  }
-  
-  @media (max-width: 768px) {
-	.grid {
-	  grid-template-columns: repeat(3, 1fr);
-	}
-  
-	.hamburger {
-	  display: flex;
-	}
-  
-	.nav-list {
-	  position: absolute;
-	  top: 100px;
-	  right: 0;
-	  background-color: light-dark(var(--light),var(--dark));
-	  flex-direction: column;
-	  width: 100%;
-	  height: auto;
-	  align-items: center;
-	  display: none;
-	}
-  
-	.nav-list li {
-	  margin: 20px 0;
-	}
-  
-	nav.active .nav-list {
-	  display: flex;
-	}
-  
-	nav {
-	  justify-content: flex-start;
-	}
-  }
-  
-  @media (max-width: 576px) {
-	.grid {
-		grid-template-columns: repeat(2, 1fr);
-	  }
-	}
