@@ -38,7 +38,6 @@ window.addEventListener('scroll', () => {
   }
 });
 
-
 const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('nav');
 
@@ -48,3 +47,8 @@ hamburger.addEventListener('click', () => {
   hamburger.setAttribute('aria-expanded', !expanded);
 });
 
+
+document.body.addEventListener('keydown', () => {
+  console.log('test')
+  document.body.classList.toggle('color-scheme-dark')
+})
