@@ -13,6 +13,7 @@ De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/fix-the
 
 
 ## Hamburger Menu
+![Aelsmeer pictogrammen-02](https://github.com/user-attachments/assets/1a53f178-e46d-442b-9219-5b6a28becc67)
 
 Beschrijving: Toont en verbergt het navigatiemenu voor een responsief ontwerp.
 
@@ -25,6 +26,8 @@ JavaScript zorgt voor het toevoegen/verwijderen van de klasse active.
 Aria-kenmerken worden bijgewerkt voor toegankelijkheid.
 
 ## Afbeeldingen Filter
+
+![Schermafbeelding 2024-12-19 095343](https://github.com/user-attachments/assets/ca084adf-a7f4-486c-8b3d-24ce620d9b4f)
 
 Beschrijving: Filtert afbeeldingen en laadt nieuwe op basis van gebruikersinteractie.
 
