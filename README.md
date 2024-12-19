@@ -12,7 +12,7 @@ De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/fix-the
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 
-##Hamburger Menu
+## Hamburger Menu
 
 Beschrijving: Toont en verbergt het navigatiemenu voor een responsief ontwerp.
 
@@ -24,7 +24,7 @@ JavaScript zorgt voor het toevoegen/verwijderen van de klasse active.
 
 Aria-kenmerken worden bijgewerkt voor toegankelijkheid.
 
-##Afbeeldingen Filter
+## Afbeeldingen Filter
 
 Beschrijving: Filtert afbeeldingen en laadt nieuwe op basis van gebruikersinteractie.
 
